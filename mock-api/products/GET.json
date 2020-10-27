@@ -1,0 +1,10 @@
+{
+	"products": [
+		{ "id": "1", "name": "Magnus", "brand": "Harris", "section": "gents", "price": "149", "material": "glass", "size": "narrow", "shape": "rectangular", "color": ["DarkCyan", "MediumBlue"] },
+		{ "id": "2", "name": "Poolside", "brand": "Blue", "section": "gents", "price": "235", "material": "glass", "size": "medium", "shape": "rectangular", "color": ["Beige", "DarkCyan"] },
+		{ "id": "3", "name": "HSP", "brand": "Lens", "section": "gents", "price": "89", "material": "plastic", "size": "wide", "shape": "round", "color": ["LightGrey", "Salmon"] },
+		{ "id": "4", "name": "Muse", "brand": "Lacoste", "section": "gents", "price": "359", "material": "plastic", "size": "narrow", "shape": "round", "color": ["MediumBlue", "MediumOrchid"] },
+		{ "id": "5", "name": "3025", "brand": "Rayban", "section": "gents", "price": "289", "material": "wood", "size": "medium", "shape": "round-rectangular", "color": ["Salmon", "LightGrey"] },
+		{ "id": "6", "name": "Aviator", "brand": "Rayban", "section": "gents", "price": "149", "material": "wood", "size": "wide", "shape": "round-rectangular", "color": ["MediumOrchid", "Beige"] }
+	]
+}

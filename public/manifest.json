@@ -1,0 +1,40 @@
+{
+	"short_name": "EOLL",
+	"name": "EOLL",
+	"icons": [
+		{
+			"src": "logo/logo.png",
+			"type": "image/png",
+			"sizes": "64x64"
+		},
+		{
+			"src": "logo/logo@0.5x.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "logo/logo@1.5x.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "logo/logo@2x.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "logo/logo@3x.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "logo/logo@4x.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

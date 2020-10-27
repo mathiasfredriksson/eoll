@@ -1,0 +1,107 @@
+.product {
+	display: grid;
+	flex: 1;
+	grid-gap: 30px;
+	list-style: none;
+	padding-top: 30px;
+	color: #888;
+	grid-auto-columns: 2fr;
+    grid-auto-flow: column;
+	overflow: hidden;
+}
+
+.image {
+	display: flex;
+    justify-content: center;
+    text-align: center;
+	overflow: hidden;
+}
+
+.image img {
+	object-fit: cover;
+	width: 100%;
+	max-height: 100%;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 80px;
+}
+
+.colorContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.colorContainer span {
+	text-align: center;
+}
+
+.colorContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.color {
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+}
+
+.circle {
+	padding-right: 5px;
+}
+
+.circle:before {
+	content: ' \25CF';
+	font-size: 20px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.centeredRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.divider  {
+	flex: 1;
+}
+
+.details {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.productName {
+	color: #222;
+	margin-top: 10px;
+	font-family: 'GillSansMTPro-ExtraBold', sans-serif;
+	font-size: 1em;
+}
+
+.productBottom {
+	color: #555;
+	display: flex;
+	flex-direction: row;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

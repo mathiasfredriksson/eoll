@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	padding-top: 0;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 260px);
+	grid-gap: 30px;
+	list-style: none;
+}

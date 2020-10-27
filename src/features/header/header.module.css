@@ -1,0 +1,47 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  	justify-content: center;
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+.header {
+	font-family: 'GillSansMTPro-ExtraBold', sans-serif;
+	font-size: 2em;
+}
+
+.divider  {
+	flex: 1;
+}
+
+.link {
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #555;
+}
+
+.cart {
+	position: relative;
+}
+
+.counter {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #DDD;
+	text-align: center;
+	border-radius: 50%;
+	margin-left: 10px;
+	position: absolute;
+	left: 15px;
+	top: -10px
+}
